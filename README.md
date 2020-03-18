@@ -49,3 +49,32 @@ git checkout -b hotfix              Hotfix branch
 git merge hotfix                        the hotfix branch back into your master branch to deploy to production
 git branch -d hotfix                
 git branch                           This creates and deletes branches
+%h-- Abbreviated commit hash
+
+%T--Tree hash
+
+%t--Abbreviated tree hash
+
+%P--Parent hashes
+
+%p--Abbreviated parent hashes
+
+%an--Author name
+
+%ae--Author email
+
+%ad--Author date (format respects the --date=option)
+
+%ar--Author date, relative
+
+%cn--Committer name
+
+%ce--Committer email
+
+%cd--Committer date
+
+%cr--Committer date, relative
+
+%s--Subject*/
+
+/This command takes your preparation area and uses it for confirmation. If you haven't made any changes since your last commit
